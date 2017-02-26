@@ -1,4 +1,4 @@
-FROM s0fx2/alpine:3.5
+FROM s0fx2/alpine-armhf:3.5
 
 MAINTAINER s0fx2 <9288171@qq.com>
 
