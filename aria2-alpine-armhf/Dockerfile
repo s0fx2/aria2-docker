@@ -12,7 +12,7 @@ RUN mkdir /root/aria2 && \
 
 ADD conf/aria2.conf /root/aria2/aria2.conf
 
-VOLUME /root/aria2/download
+VOLUME /root/aria2/
 
 EXPOSE 6800
 
