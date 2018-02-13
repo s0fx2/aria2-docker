@@ -1,4 +1,4 @@
-aria2的Docker镜像，方便迅速安装下载工作站。
+Aria2下载工具Docker镜像，方便迅速的搭建下载工作站。支持QNAP（威联通）和Synology(群晖) NAS的容器工作站，支持armhf（树莓派）
 
 开放端口：6800
 
@@ -6,9 +6,17 @@ aria2的Docker镜像，方便迅速安装下载工作站。
 
 目录：/root/downloads 是下载路径，请一定要记得挂接到本地，否则下载到容器内部，容器就爆了。
 
+更新日志：
+
+18年2月13日：
+
+Alpine 更新到最新3.7
+
+Aria2 更新到1.33.1
+
 本次更新只更新了 x86版的aria2，armhf版暂未更新。
 
 
-++aria2-alpine: X86/64版
+++ s0fx2/aria2-alpine: X86/64版
 
-++aria2-alpine-armhf: armhf版（Raspberry Pi）（目前还未更新）
+++ s0fx2/aria2-alpine-armhf: armhf版（Raspberry Pi）（目前还未更新）
