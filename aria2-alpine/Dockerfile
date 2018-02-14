@@ -18,6 +18,7 @@ VOLUME /root/aria2/
 VOLUME /root/downloads/
 
 EXPOSE 6800
+EXPOSE 6881
+EXPOSE 6882
 
-#CMD aria2c --conf-path /root/aria2/aria2.conf
 CMD /root/run.sh
