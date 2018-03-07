@@ -5,8 +5,8 @@
 - 开放端口：
 
 	1. TCP：6800 Aria2 RPC 链接端口
-	2. TCP+UDP：6881 Aria2 BT下载端口
-	3. TCP+UDP：6882 DHT端口
+	2. TCP：6881 Aria2 BT下载端口
+	3. UDP：6882 DHT端口
 
 
 - 开放目录：
