@@ -14,6 +14,9 @@
 	2. `/root/downloads` 是下载路径，请一定要记得挂接到本地，否则下载到容器内部，容器就爆了。
 
 #### 更新日志：
+- 18年3月9日：
+	1. 更新armhf版到3.7
+	2. 更新aria2 到1.33.1，树莓派可以欢快的玩耍了，同样要记住请挂载好文件夹再玩
 
 - 18年2月14日：
 	1. 增加2个开放端口
@@ -23,8 +26,8 @@
 	1. Alpine 更新到3.7
 	2. Aria2 更新到1.33.1
 
-**只更新了 x86版的aria2，armhf版暂未更新。**
+**好消息，armhf版已经更新啦，请到docker Hub寻找**
 
 ---
 #### s0fx2/aria2-alpine: X86/64版
-#### s0fx2/aria2-alpine-armhf: armhf版（Raspberry Pi）（目前还未更新）
+#### s0fx2/aria2-alpine-armhf: armhf版（Raspberry Pi）
